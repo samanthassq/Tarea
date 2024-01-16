@@ -1,0 +1,14 @@
+#El usuario presenta los ingredientes a convertir a cucharadas
+tazas_de_harina = int(input("Insertar cantidad de tazas de harina en números enteros"))
+cucharaditas_de_sal = int(input("Insertar cantidad de cucharaditas de sal en números enteros"))
+tazas_de_agua = int(input("Insertar cantidad de tazas de agua en números enteros"))
+
+#Proceso de conversión de cada ingrediente a cucharadas
+conversión_a_cucharadas_de_harina = tazas_de_harina / 16
+conversión_a_cucharadas_de_sal = cucharaditas_de_sal * 3
+conversión_a_cucharadas_de_agua = tazas_de_agua / 16
+
+#Conversión final 
+print(f"{tazas_de_harina} tazas de harina son {conversión_a_cucharadas_de_harina} en cucharadas")
+print(f"{cucharaditas_de_sal} cucharaditas de sal son {conversión_a_cucharadas_de_sal} en cucharadas")
+print(f"{tazas_de_agua} tazas de agua son {conversión_a_cucharadas_de_agua} en cucharadas")
